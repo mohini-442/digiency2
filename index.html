@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/nav-image1.png" type="image/x-icon">
+    <title>digiency-2</title>
+</head>
+
+<body>
+    <div class="nav bg-white">
+        <nav class="container ">
+            <div class="d-flex align-items-center justify-content-between pt-26 pb-26">
+                <div>
+                    <h2 class="logo">Digi<span class="logo-1">ency</span></h2>
+                </div>
+                <div class="d-block d-lg-none">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 6C12.552 6 13 5.553 13 5V3C13 2.447 12.552 2 12 2C11.448 2 11 2.447 11 3V5C11 5.553 11.448 6 12 6ZM21 11H19C18.448 11 18 11.447 18 12C18 12.553 18.448 13 19 13H21C21.552 13 22 12.553 22 12C22 11.447 21.552 11 21 11ZM5 11C5.552 11 6 11.447 6 12C6 12.553 5.552 13 5 13H3C2.448 13 2 12.553 2 12C2 11.447 2.448 11 3 11H5ZM6.2207 5.0283C5.8237 4.6453 5.1907 4.6573 4.8067 5.0533C4.4227 5.4503 4.4337 6.0843 4.8307 6.4673L6.2697 7.8573C6.4647 8.0453 6.7147 8.1373 6.9647 8.1373C7.2267 8.1373 7.4877 8.0353 7.6837 7.8323C8.0677 7.4353 8.0567 6.8013 7.6597 6.4183L6.2207 5.0283ZM17.7302 7.8577C17.5352 8.0447 17.2852 8.1377 17.0352 8.1377C16.7732 8.1377 16.5122 8.0347 16.3162 7.8317C15.9322 7.4357 15.9432 6.8017 16.3402 6.4177L17.7792 5.0287C18.1782 4.6457 18.8102 4.6577 19.1932 5.0537C19.5772 5.4497 19.5662 6.0837 19.1692 6.4677L17.7302 7.8577ZM12 18C11.448 18 11 18.447 11 19V21C11 21.553 11.448 22 12 22C12.552 22 13 21.553 13 21V19C13 18.447 12.552 18 12 18ZM16.316 16.1676C16.7 15.7716 17.333 15.7596 17.73 16.1426L19.169 17.5326C19.566 17.9156 19.577 18.5496 19.193 18.9466C18.997 19.1496 18.736 19.2516 18.474 19.2516C18.224 19.2516 17.974 19.1596 17.779 18.9716L16.34 17.5816C15.943 17.1986 15.932 16.5646 16.316 16.1676ZM6.27 16.1426L4.831 17.5326C4.434 17.9156 4.423 18.5496 4.807 18.9466C5.003 19.1496 5.264 19.2516 5.526 19.2516C5.776 19.2516 6.026 19.1596 6.221 18.9716L7.66 17.5816C8.057 17.1986 8.068 16.5646 7.684 16.1676C7.301 15.7716 6.668 15.7596 6.27 16.1426ZM8 12C8 9.794 9.794 8 12 8C14.206 8 16 9.794 16 12C16 14.206 14.206 16 12 16C9.794 16 8 14.206 8 12Z"
+                            fill="#231F20" />
+                        <mask id="mask0_2_2994" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="2"
+                            width="20" height="20">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 6C12.552 6 13 5.553 13 5V3C13 2.447 12.552 2 12 2C11.448 2 11 2.447 11 3V5C11 5.553 11.448 6 12 6ZM21 11H19C18.448 11 18 11.447 18 12C18 12.553 18.448 13 19 13H21C21.552 13 22 12.553 22 12C22 11.447 21.552 11 21 11ZM5 11C5.552 11 6 11.447 6 12C6 12.553 5.552 13 5 13H3C2.448 13 2 12.553 2 12C2 11.447 2.448 11 3 11H5ZM6.2207 5.0283C5.8237 4.6453 5.1907 4.6573 4.8067 5.0533C4.4227 5.4503 4.4337 6.0843 4.8307 6.4673L6.2697 7.8573C6.4647 8.0453 6.7147 8.1373 6.9647 8.1373C7.2267 8.1373 7.4877 8.0353 7.6837 7.8323C8.0677 7.4353 8.0567 6.8013 7.6597 6.4183L6.2207 5.0283ZM17.7302 7.8577C17.5352 8.0447 17.2852 8.1377 17.0352 8.1377C16.7732 8.1377 16.5122 8.0347 16.3162 7.8317C15.9322 7.4357 15.9432 6.8017 16.3402 6.4177L17.7792 5.0287C18.1782 4.6457 18.8102 4.6577 19.1932 5.0537C19.5772 5.4497 19.5662 6.0837 19.1692 6.4677L17.7302 7.8577ZM12 18C11.448 18 11 18.447 11 19V21C11 21.553 11.448 22 12 22C12.552 22 13 21.553 13 21V19C13 18.447 12.552 18 12 18ZM16.316 16.1676C16.7 15.7716 17.333 15.7596 17.73 16.1426L19.169 17.5326C19.566 17.9156 19.577 18.5496 19.193 18.9466C18.997 19.1496 18.736 19.2516 18.474 19.2516C18.224 19.2516 17.974 19.1596 17.779 18.9716L16.34 17.5816C15.943 17.1986 15.932 16.5646 16.316 16.1676ZM6.27 16.1426L4.831 17.5326C4.434 17.9156 4.423 18.5496 4.807 18.9466C5.003 19.1496 5.264 19.2516 5.526 19.2516C5.776 19.2516 6.026 19.1596 6.221 18.9716L7.66 17.5816C8.057 17.1986 8.068 16.5646 7.684 16.1676C7.301 15.7716 6.668 15.7596 6.27 16.1426ZM8 12C8 9.794 9.794 8 12 8C14.206 8 16 9.794 16 12C16 14.206 14.206 16 12 16C9.794 16 8 14.206 8 12Z"
+                                fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_2_2994)">
+                            <rect width="24" height="24" fill="#0D1C2E" />
+                        </g>
+                    </svg>
+
+                </div>
+                <label for="menubar" class="z-index">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </label>
+                <input type="checkbox" id="menubar" hidden>
+                <ul class="d-flex gap-38 pt-10 pb-10 mb-0 mobile-view">
+                    <li><a href="" class="font">Home</a></li>
+                    <li><a href="" class="font">About Us</a></li>
+                    <li><a href="" class="font">Our Work</a></li>
+                    <li><a href="" class="font">Clients</a></li>
+                    <li><a href="" class="font">Our Blog</a></li>
+                    <li><a href="" class="font">Contact Us</a></li>
+                </ul>
+
+                <div class="d-none d-lg-block">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 6C12.552 6 13 5.553 13 5V3C13 2.447 12.552 2 12 2C11.448 2 11 2.447 11 3V5C11 5.553 11.448 6 12 6ZM21 11H19C18.448 11 18 11.447 18 12C18 12.553 18.448 13 19 13H21C21.552 13 22 12.553 22 12C22 11.447 21.552 11 21 11ZM5 11C5.552 11 6 11.447 6 12C6 12.553 5.552 13 5 13H3C2.448 13 2 12.553 2 12C2 11.447 2.448 11 3 11H5ZM6.2207 5.0283C5.8237 4.6453 5.1907 4.6573 4.8067 5.0533C4.4227 5.4503 4.4337 6.0843 4.8307 6.4673L6.2697 7.8573C6.4647 8.0453 6.7147 8.1373 6.9647 8.1373C7.2267 8.1373 7.4877 8.0353 7.6837 7.8323C8.0677 7.4353 8.0567 6.8013 7.6597 6.4183L6.2207 5.0283ZM17.7302 7.8577C17.5352 8.0447 17.2852 8.1377 17.0352 8.1377C16.7732 8.1377 16.5122 8.0347 16.3162 7.8317C15.9322 7.4357 15.9432 6.8017 16.3402 6.4177L17.7792 5.0287C18.1782 4.6457 18.8102 4.6577 19.1932 5.0537C19.5772 5.4497 19.5662 6.0837 19.1692 6.4677L17.7302 7.8577ZM12 18C11.448 18 11 18.447 11 19V21C11 21.553 11.448 22 12 22C12.552 22 13 21.553 13 21V19C13 18.447 12.552 18 12 18ZM16.316 16.1676C16.7 15.7716 17.333 15.7596 17.73 16.1426L19.169 17.5326C19.566 17.9156 19.577 18.5496 19.193 18.9466C18.997 19.1496 18.736 19.2516 18.474 19.2516C18.224 19.2516 17.974 19.1596 17.779 18.9716L16.34 17.5816C15.943 17.1986 15.932 16.5646 16.316 16.1676ZM6.27 16.1426L4.831 17.5326C4.434 17.9156 4.423 18.5496 4.807 18.9466C5.003 19.1496 5.264 19.2516 5.526 19.2516C5.776 19.2516 6.026 19.1596 6.221 18.9716L7.66 17.5816C8.057 17.1986 8.068 16.5646 7.684 16.1676C7.301 15.7716 6.668 15.7596 6.27 16.1426ZM8 12C8 9.794 9.794 8 12 8C14.206 8 16 9.794 16 12C16 14.206 14.206 16 12 16C9.794 16 8 14.206 8 12Z"
+                            fill="#231F20" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="bg-pinkish position-relative overflow-hidden">
+        <div class="container">
+            <div class="row pb-206">
+                <div class="col-lg-6 pt-203 d-block d-lg-none justify-content-lg-center">
+                    <img src="./assets/images/nav-image1.png" alt="nav-image1" class="w-100">
+
+                </div>
+                <div class="col-lg-6 pt-176 d-none d-lg-block d-flex align-items-center flex-column">
+                    <h2 class="h2">We Are The Best<br>
+                        <span class="h22">Digital Agency</span> for
+                        business
+                    </h2>
+                    <p class="para-1 mb-0 max-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                        sint. Velit
+                        officia consequat
+                        duis enim velit
+                        mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button class="btn-1">Contact Us</button>
+                </div>
+                <div
+                    class="col-lg-6 pt-177 pt-43 d-block d-lg-none d-flex align-items-center justify-content-center flex-column">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <h2 class="h2 mx-w">We Are The Best
+                            <span class="h22">Digital Agency</span> for
+                            business
+                        </h2>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <p class="para-1 mb-0 max-width">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint.
+                            Velit
+                            officia consequat
+                            duis enim velit
+                            mollit. <span class="d-none d-sm-block">Exercitation veniam consequat sunt nostrud
+                                amet.</span></p>
+                    </div>
+                    <button class="btn-1">Contact Us</button>
+
+                </div>
+                <div class="col-lg-6 pt-153 d-none d-lg-block">
+                    <img src="./assets/images/nav-image1.png" alt="nav-image1" class="w-100">
+
+                </div>
+            </div>
+            <div class="pos-abs2">
+                <div class="card-5 d-flex align-items-center justify-content-center">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_2_3236)">
+                            <path
+                                d="M14 14H16.5L17.5 10H14V8C14 6.97 14 6 16 6H17.5V2.64C17.174 2.597 15.943 2.5 14.643 2.5C11.928 2.5 10 4.157 10 7.2V10H7V14H10V22.5H14V14Z"
+                                fill="#FF5300" />
+                        </g>
+
+                    </svg>
+                </div>
+                <div class="card-5 d-flex align-items-center justify-content-center">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2.5C14.717 2.5 15.056 2.51 16.122 2.56C17.187 2.61 17.912 2.777 18.55 3.025C19.21 3.279 19.766 3.623 20.322 4.178C20.8305 4.6779 21.224 5.28259 21.475 5.95C21.722 6.587 21.89 7.313 21.94 8.378C21.987 9.444 22 9.783 22 12.5C22 15.217 21.99 15.556 21.94 16.622C21.89 17.687 21.722 18.412 21.475 19.05C21.2247 19.7178 20.8311 20.3226 20.322 20.822C19.822 21.3303 19.2173 21.7238 18.55 21.975C17.913 22.222 17.187 22.39 16.122 22.44C15.056 22.487 14.717 22.5 12 22.5C9.283 22.5 8.944 22.49 7.878 22.44C6.813 22.39 6.088 22.222 5.45 21.975C4.78233 21.7245 4.17753 21.3309 3.678 20.822C3.16941 20.3222 2.77593 19.7175 2.525 19.05C2.277 18.413 2.11 17.687 2.06 16.622C2.013 15.556 2 15.217 2 12.5C2 9.783 2.01 9.444 2.06 8.378C2.11 7.312 2.277 6.588 2.525 5.95C2.77524 5.28218 3.1688 4.67732 3.678 4.178C4.17767 3.66923 4.78243 3.27573 5.45 3.025C6.088 2.777 6.812 2.61 7.878 2.56C8.944 2.513 9.283 2.5 12 2.5ZM12 7.5C10.6739 7.5 9.40215 8.02678 8.46447 8.96447C7.52678 9.90215 7 11.1739 7 12.5C7 13.8261 7.52678 15.0979 8.46447 16.0355C9.40215 16.9732 10.6739 17.5 12 17.5C13.3261 17.5 14.5979 16.9732 15.5355 16.0355C16.4732 15.0979 17 13.8261 17 12.5C17 11.1739 16.4732 9.90215 15.5355 8.96447C14.5979 8.02678 13.3261 7.5 12 7.5ZM18.5 7.25C18.5 6.91848 18.3683 6.60054 18.1339 6.36612C17.8995 6.1317 17.5815 6 17.25 6C16.9185 6 16.6005 6.1317 16.3661 6.36612C16.1317 6.60054 16 6.91848 16 7.25C16 7.58152 16.1317 7.89946 16.3661 8.13388C16.6005 8.3683 16.9185 8.5 17.25 8.5C17.5815 8.5 17.8995 8.3683 18.1339 8.13388C18.3683 7.89946 18.5 7.58152 18.5 7.25ZM12 9.5C12.7956 9.5 13.5587 9.81607 14.1213 10.3787C14.6839 10.9413 15 11.7044 15 12.5C15 13.2956 14.6839 14.0587 14.1213 14.6213C13.5587 15.1839 12.7956 15.5 12 15.5C11.2044 15.5 10.4413 15.1839 9.87868 14.6213C9.31607 14.0587 9 13.2956 9 12.5C9 11.7044 9.31607 10.9413 9.87868 10.3787C10.4413 9.81607 11.2044 9.5 12 9.5Z"
+                            fill="#FF5300" />
+                    </svg>
+
+                </div>
+                <div class="card-5 d-flex align-items-center justify-content-center">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_2_3248)">
+                            <path
+                                d="M22.1618 6.15593C21.3984 6.49362 20.5888 6.7154 19.7598 6.81393C20.6336 6.29136 21.2875 5.46894 21.5998 4.49993C20.7798 4.98793 19.8808 5.32993 18.9438 5.51493C18.3144 4.84151 17.4802 4.39489 16.5708 4.24451C15.6614 4.09413 14.7277 4.24842 13.9151 4.68338C13.1024 5.11834 12.4562 5.80961 12.0769 6.64972C11.6976 7.48983 11.6066 8.43171 11.8178 9.32893C10.1549 9.24558 8.52814 8.81345 7.0431 8.06059C5.55805 7.30773 4.24794 6.25097 3.19781 4.95893C2.8261 5.59738 2.63076 6.32315 2.63181 7.06193C2.63181 8.51193 3.36981 9.79293 4.49181 10.5429C3.82782 10.522 3.17844 10.3427 2.59781 10.0199V10.0719C2.59801 11.0376 2.93218 11.9735 3.54366 12.721C4.15513 13.4684 5.00629 13.9814 5.95281 14.1729C5.33642 14.34 4.69012 14.3646 4.06281 14.2449C4.32968 15.0762 4.84982 15.8031 5.5504 16.324C6.25099 16.8449 7.09694 17.1337 7.96981 17.1499C7.10229 17.8313 6.10899 18.3349 5.04669 18.6321C3.98439 18.9293 2.87394 19.0142 1.77881 18.8819C3.69051 20.1114 5.9159 20.764 8.18881 20.7619C15.8818 20.7619 20.0888 14.3889 20.0888 8.86193C20.0888 8.68193 20.0838 8.49993 20.0758 8.32193C20.8947 7.73009 21.6014 6.99695 22.1628 6.15693L22.1618 6.15593Z"
+                                fill="#FF5300" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="card-5 d-flex align-items-center justify-content-center">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13.3102 20.8999C11.9879 21.1065 10.6355 20.9979 9.36308 20.5829C8.09069 20.168 6.93425 19.4585 5.98791 18.5122C5.04156 17.5658 4.33205 16.4094 3.91713 15.137C3.50221 13.8646 3.39361 12.5122 3.60016 11.1899C3.07889 10.1984 2.88841 9.0662 3.05657 7.95873C3.22472 6.85125 3.74269 5.8266 4.53477 5.03452C5.32684 4.24244 6.3515 3.72448 7.45897 3.55632C8.56644 3.38817 9.69867 3.57865 10.6902 4.09991C12.0125 3.89336 13.3648 4.00197 14.6372 4.41689C15.9096 4.83181 17.0661 5.54132 18.0124 6.48766C18.9588 7.43401 19.6683 8.59044 20.0832 9.86284C20.4981 11.1352 20.6067 12.4876 20.4002 13.8099C20.9214 14.8014 21.1119 15.9336 20.9437 17.0411C20.7756 18.1486 20.2576 19.1732 19.4655 19.9653C18.6735 20.7574 17.6488 21.2754 16.5413 21.4435C15.4339 21.6117 14.3016 21.4212 13.3102 20.8999ZM12.0522 17.6559H12.0122C14.8842 17.6559 16.3152 16.2699 16.3152 14.4129C16.3152 13.2149 15.7642 11.9419 13.5892 11.4549L11.6062 11.0149C10.8512 10.8429 9.98416 10.6149 9.98416 9.89991C9.98416 9.18491 10.6042 8.68691 11.7082 8.68691C13.9382 8.68691 13.7352 10.2149 14.8392 10.2149C15.4152 10.2149 15.9322 9.87291 15.9322 9.28491C15.9322 7.91491 13.7352 6.88491 11.8762 6.88491C9.85516 6.88491 7.70316 7.74391 7.70316 10.0289C7.70316 11.1269 8.09716 12.2989 10.2632 12.8419L12.9522 13.5129C13.7682 13.7149 13.9702 14.1719 13.9702 14.5849C13.9702 15.2719 13.2862 15.9429 12.0522 15.9429C9.63516 15.9429 9.97416 14.0859 8.67816 14.0859C8.09816 14.0859 7.67516 14.4839 7.67516 15.0569C7.67516 16.1709 9.02716 17.6549 12.0522 17.6549V17.6559Z"
+                            fill="#FF5300" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-lg-203 pt-43">
+                    <img src="./assets/images/img-2.png" alt="img-2" class="w-100">
+                </div>
+                <div class="col-lg-6 pt-153 d-flex flex-column">
+                    <p class="f-p">About Us</p>
+                    <h2 class="font-2 mn-w">We Are<span class="font-3"> Making
+                            Ideas Better</span> For Everyone</h2>
+                    <p class="para-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur imperdiet at a
+                        augue
+                        ullamcorper.Leo faucibus feugiat
+                            rutrum aenean. Nisi, lectus aliquet aliquam consectetur augue praesent. Lorem vulputate orci
+                            eget mi, sed pulvinar</p>
+
+                    <p class="para-1"> Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit faucibus est, dui
+                        interdum ut
+                        amet.Adipiscing feugiat
+                            vel at posuere in. Pellentesque volutpat vestibulum.</p>
+                    <button class="btn-1">Contact Us</button>
+                </div>
+
+            </div>
+            <div class="row pt-60 pb-120 justify-content-center">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-22">
+                    <div class="card-1 d-flex justify-content-center align-items-center flex-column">
+                        <svg class="" width="100" height="101" viewBox="0 0 100 101" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_2_3173)">
+                                <circle cx="46" cy="45.5" r="35" fill="#FF5300" />
+                            </g>
+                            <g clip-path="url(#clip0_2_3173)">
+                                <path
+                                    d="M42.25 33.0038V33H55.9975C56.6875 33 57.25 33.5688 57.25 34.24V56.76C57.2497 57.089 57.1188 57.4044 56.886 57.6369C56.6533 57.8694 56.3378 58 56.0088 58H35.9913C35.8271 57.9989 35.6648 57.9654 35.5136 57.9015C35.3624 57.8376 35.2252 57.7446 35.11 57.6277C34.9947 57.5108 34.9036 57.3724 34.8418 57.2203C34.7801 57.0682 34.7489 56.9054 34.75 56.7412V40.5L42.25 33.0038ZM38.2875 40.5H42.25V36.5375L38.2875 40.5ZM44.75 35.5V41.75C44.75 42.0815 44.6183 42.3995 44.3839 42.6339C44.1495 42.8683 43.8316 43 43.5 43H37.25V55.5H54.75V35.5H44.75Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_2_3173" x="0" y="0.5" width="100" height="100"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dx="4" dy="5" />
+                                    <feGaussianBlur stdDeviation="7.5" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 1 0 0 0 0 0.326087 0 0 0 0 0 0 0 0 0.4 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_2_3173" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_3173"
+                                        result="shape" />
+                                </filter>
+                                <clipPath id="clip0_2_3173">
+                                    <rect width="30" height="30" fill="white" transform="translate(31 30.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p class="card-para pt-10">World leader in consulting
+                            and finance</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-22">
+                    <div class="card-1 d-flex justify-content-center align-items-center flex-column">
+                        <svg width="100" height="101" viewBox="0 0 100 101" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_2_3180)">
+                                <circle cx="46" cy="45.5" r="35" fill="#7B7B7B" />
+                            </g>
+                            <g clip-path="url(#clip0_2_3180)">
+                                <path
+                                    d="M59.75 45.4999L50.9112 54.3386L49.1438 52.5711L56.215 45.4999L49.1438 38.4286L50.9112 36.6611L59.75 45.4999ZM35.785 45.4999L42.8562 52.5711L41.0887 54.3386L32.25 45.4999L41.0887 36.6611L42.8562 38.4286L35.785 45.4999Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_2_3180" x="0" y="0.5" width="100" height="100"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dx="4" dy="5" />
+                                    <feGaussianBlur stdDeviation="7.5" />
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_2_3180" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_3180"
+                                        result="shape" />
+                                </filter>
+                                <clipPath id="clip0_2_3180">
+                                    <rect width="30" height="30" fill="white" transform="translate(31 30.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p class="card-para pt-10">A focused team with a
+                            specialized skill</p>
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-22">
+                    <div class="card-1 d-flex justify-content-center align-items-center flex-column">
+                        <svg width="100" height="101" viewBox="0 0 100 101" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_2_3187)">
+                                <circle cx="46" cy="45.5" r="35" fill="#00ACFF" />
+                            </g>
+                            <g clip-path="url(#clip0_2_3187)">
+                                <path
+                                    d="M33.5 45.5001C33.5 44.4189 33.6375 43.3714 33.895 42.3701C34.5856 42.4064 35.2728 42.2511 35.8806 41.9212C36.4883 41.5914 36.9931 41.0999 37.339 40.5011C37.6849 39.9023 37.8585 39.2195 37.8406 38.5282C37.8227 37.8369 37.614 37.164 37.2375 36.5839C38.7487 35.0971 40.6135 34.0195 42.6562 33.4526C42.97 34.0695 43.4483 34.5875 44.0382 34.9493C44.6282 35.3111 45.3067 35.5026 45.9987 35.5026C46.6908 35.5026 47.3693 35.3111 47.9593 34.9493C48.5492 34.5875 49.0275 34.0695 49.3413 33.4526C51.384 34.0195 53.2488 35.0971 54.76 36.5839C54.3831 37.1641 54.1741 37.8372 54.156 38.5288C54.138 39.2205 54.3116 39.9036 54.6577 40.5027C55.0038 41.1017 55.5089 41.5933 56.1171 41.9232C56.7253 42.253 57.4129 42.4081 58.1038 42.3714C58.3612 43.3714 58.4988 44.4189 58.4988 45.5001C58.4988 46.5814 58.3612 47.6289 58.1038 48.6301C57.4131 48.5936 56.7257 48.7488 56.1177 49.0785C55.5098 49.4083 55.0048 49.8998 54.6588 50.4986C54.3127 51.0975 54.139 51.7804 54.1569 52.4718C54.1747 53.1632 54.3835 53.8362 54.76 54.4164C53.2488 55.9032 51.384 56.9808 49.3413 57.5476C49.0275 56.9308 48.5492 56.4128 47.9593 56.051C47.3693 55.6892 46.6908 55.4977 45.9987 55.4977C45.3067 55.4977 44.6282 55.6892 44.0382 56.051C43.4483 56.4128 42.97 56.9308 42.6562 57.5476C40.6135 56.9808 38.7487 55.9032 37.2375 54.4164C37.6144 53.8362 37.8234 53.1631 37.8415 52.4714C37.8595 51.7798 37.6859 51.0967 37.3398 50.4976C36.9937 49.8986 36.4886 49.4069 35.8804 49.0771C35.2722 48.7473 34.5846 48.5922 33.8938 48.6289C33.6375 47.6301 33.5 46.5826 33.5 45.5001ZM39.505 49.2501C40.2925 50.6139 40.5175 52.1826 40.21 53.6551C40.72 54.0176 41.2625 54.3314 41.8313 54.5926C42.9771 53.5662 44.4616 52.9991 46 53.0001C47.575 53.0001 49.0475 53.5889 50.1688 54.5926C50.7375 54.3314 51.28 54.0176 51.79 53.6551C51.4743 52.1501 51.7253 50.5815 52.495 49.2501C53.2633 47.9181 54.4963 46.9166 55.9575 46.4376C56.0153 45.814 56.0153 45.1863 55.9575 44.5626C54.4958 44.084 53.2623 43.0824 52.4937 41.7501C51.7241 40.4188 51.473 38.8502 51.7887 37.3451C51.2789 36.9825 50.7361 36.6687 50.1675 36.4076C49.022 37.4338 47.5379 38.0009 46 38.0001C44.4616 38.0012 42.9771 37.4341 41.8313 36.4076C41.2627 36.6687 40.7199 36.9825 40.21 37.3451C40.5257 38.8502 40.2747 40.4188 39.505 41.7501C38.7367 43.0822 37.5037 44.0837 36.0425 44.5626C35.9847 45.1863 35.9847 45.814 36.0425 46.4376C37.5042 46.9163 38.7377 47.9179 39.5062 49.2501H39.505ZM46 49.2501C45.0054 49.2501 44.0516 48.8551 43.3483 48.1518C42.6451 47.4485 42.25 46.4947 42.25 45.5001C42.25 44.5056 42.6451 43.5517 43.3483 42.8485C44.0516 42.1452 45.0054 41.7501 46 41.7501C46.9946 41.7501 47.9484 42.1452 48.6517 42.8485C49.3549 43.5517 49.75 44.5056 49.75 45.5001C49.75 46.4947 49.3549 47.4485 48.6517 48.1518C47.9484 48.8551 46.9946 49.2501 46 49.2501ZM46 46.7501C46.3315 46.7501 46.6495 46.6184 46.8839 46.384C47.1183 46.1496 47.25 45.8317 47.25 45.5001C47.25 45.1686 47.1183 44.8507 46.8839 44.6163C46.6495 44.3818 46.3315 44.2501 46 44.2501C45.6685 44.2501 45.3505 44.3818 45.1161 44.6163C44.8817 44.8507 44.75 45.1686 44.75 45.5001C44.75 45.8317 44.8817 46.1496 45.1161 46.384C45.3505 46.6184 45.6685 46.7501 46 46.7501Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_2_3187" x="0" y="0.5" width="100" height="100"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dx="4" dy="5" />
+                                    <feGaussianBlur stdDeviation="7.5" />
+                                    <feColorMatrix type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0.76 0 0 0 0 1 0 0 0 0.4 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_2_3187" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_3187"
+                                        result="shape" />
+                                </filter>
+                                <clipPath id="clip0_2_3187">
+                                    <rect width="30" height="30" fill="white" transform="translate(31 30.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                        <p class="card-para pt-10">Trusted and professional
+                            advisors for you</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-22">
+                    <div class="card-1 d-flex justify-content-center align-items-center flex-column">
+                        <svg width="100" height="101" viewBox="0 0 100 101" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_2_3194)">
+                                <circle cx="46" cy="45.5" r="35" fill="#373737" />
+                            </g>
+                            <g clip-path="url(#clip0_2_3194)">
+                                <path
+                                    d="M43.5 34.25V36.75H37.25V54.25H54.75V48H57.25V55.5C57.25 55.8315 57.1183 56.1495 56.8839 56.3839C56.6495 56.6183 56.3315 56.75 56 56.75H36C35.6685 56.75 35.3505 56.6183 35.1161 56.3839C34.8817 56.1495 34.75 55.8315 34.75 55.5V35.5C34.75 35.1685 34.8817 34.8505 35.1161 34.6161C35.3505 34.3817 35.6685 34.25 36 34.25H43.5ZM52.9825 36.75H47.25V34.25H57.25V44.25H54.75V38.5175L46 47.2675L44.2325 45.5L52.9825 36.75Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_2_3194" x="0" y="0.5" width="100" height="100"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dx="4" dy="5" />
+                                    <feGaussianBlur stdDeviation="7.5" />
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix"
+                                        result="effect1_dropShadow_2_3194" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_3194"
+                                        result="shape" />
+                                </filter>
+                                <clipPath id="clip0_2_3194">
+                                    <rect width="30" height="30" fill="white" transform="translate(31 30.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                        <p class="card-para pt-10">Experience to give you a
+                            better results</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-pinkish">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 pt-83">
+                    <p class="f-p mb-0">Our Expereince</p>
+                    <h2 class="font-2 pt-26">We Have Completed<span class="font-3"> 150+
+                            Projects</span> Succesfully</h2>
+                    <p class="para-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur imperdiet at a
+                        augue
+                        ullamcorper. Leo faucibus feugiat
+                        rutrum aenean. Nisi, lectus aliquet aliquam consectetur augue
+                            praesent. Lorem vulputate orci
+                            eget mi, sed pulvinar.</p>
+
+                    <p class="para-1"> Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit faucibus est, dui
+                        interdum ut
+                        amet. Adipiscing feugiat
+                        vel at posuere in.<span class="d-none d-lg-block"> Pellentesque volutpat vestibulum</span></p>
+                    <button class="btn-1">Contact Us</button>
+                </div>
+                <div class="col-lg-6 col-12 pt-60 pb-60">
+                    <div class="row">
+                        <div
+                            class="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center flex-column">
+                            <div class="card-2 ">
+                                <h2 class="para-2">250+</h2>
+                                <p class="para-3 pt-10 wh-space">Global Customer</p>
+
+                            </div>
+
+                        </div>
+                        <div
+                            class="col-lg-6 col-md-6 col-12 mt-50 d-flex align-items-center justify-content-center flex-column">
+                            <div class="card-4">
+                                <h2 class="para-2">156+</h2>
+                                <p class="para-3 pt-10 wh-space">Project Complted</p>
+
+                            </div>
+
+                        </div>
+                        <div
+                            class="col-lg-6 col-md-6 col-12 d-flex align-items-center mt-51 justify-content-center flex-column ">
+                            <div class="card-3">
+                                <h2 class="para-2">50+</h2>
+                                <p class="para-3 pt-10 wh-space">Team Member</p>
+
+                            </div>
+
+                        </div>
+                        <div
+                            class="col-lg-6 col-md-6 col-12 mt-50 d-flex align-items-center justify-content-center flex-column">
+                            <div class="card-3">
+                                <h2 class="para-2">15+</h2>
+                                <p class="para-3 pt-10 wh-space">Our Company</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container pt-120 pb-120">
+            <p class="f-p text-center">Team Member</p>
+            <h2 class="font-2 text-center">We Have<br>
+                <span class="font-3">Some Awesome</span> People
+            </h2>
+            <div class=" pt-60 d-flex overflow-auto w-1170 linkBox">
+                <div class="box-1">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/images/img-1.png" alt="img-1" class="">
+                        <div class="pos-abs1">
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2_3236)">
+                                            <path
+                                                d="M14 14H16.5L17.5 10H14V8C14 6.97 14 6 16 6H17.5V2.64C17.174 2.597 15.943 2.5 14.643 2.5C11.928 2.5 10 4.157 10 7.2V10H7V14H10V22.5H14V14Z"
+                                                fill="#FF5300" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2.5C14.717 2.5 15.056 2.51 16.122 2.56C17.187 2.61 17.912 2.777 18.55 3.025C19.21 3.279 19.766 3.623 20.322 4.178C20.8305 4.6779 21.224 5.28259 21.475 5.95C21.722 6.587 21.89 7.313 21.94 8.378C21.987 9.444 22 9.783 22 12.5C22 15.217 21.99 15.556 21.94 16.622C21.89 17.687 21.722 18.412 21.475 19.05C21.2247 19.7178 20.8311 20.3226 20.322 20.822C19.822 21.3303 19.2173 21.7238 18.55 21.975C17.913 22.222 17.187 22.39 16.122 22.44C15.056 22.487 14.717 22.5 12 22.5C9.283 22.5 8.944 22.49 7.878 22.44C6.813 22.39 6.088 22.222 5.45 21.975C4.78233 21.7245 4.17753 21.3309 3.678 20.822C3.16941 20.3222 2.77593 19.7175 2.525 19.05C2.277 18.413 2.11 17.687 2.06 16.622C2.013 15.556 2 15.217 2 12.5C2 9.783 2.01 9.444 2.06 8.378C2.11 7.312 2.277 6.588 2.525 5.95C2.77524 5.28218 3.1688 4.67732 3.678 4.178C4.17767 3.66923 4.78243 3.27573 5.45 3.025C6.088 2.777 6.812 2.61 7.878 2.56C8.944 2.513 9.283 2.5 12 2.5ZM12 7.5C10.6739 7.5 9.40215 8.02678 8.46447 8.96447C7.52678 9.90215 7 11.1739 7 12.5C7 13.8261 7.52678 15.0979 8.46447 16.0355C9.40215 16.9732 10.6739 17.5 12 17.5C13.3261 17.5 14.5979 16.9732 15.5355 16.0355C16.4732 15.0979 17 13.8261 17 12.5C17 11.1739 16.4732 9.90215 15.5355 8.96447C14.5979 8.02678 13.3261 7.5 12 7.5ZM18.5 7.25C18.5 6.91848 18.3683 6.60054 18.1339 6.36612C17.8995 6.1317 17.5815 6 17.25 6C16.9185 6 16.6005 6.1317 16.3661 6.36612C16.1317 6.60054 16 6.91848 16 7.25C16 7.58152 16.1317 7.89946 16.3661 8.13388C16.6005 8.3683 16.9185 8.5 17.25 8.5C17.5815 8.5 17.8995 8.3683 18.1339 8.13388C18.3683 7.89946 18.5 7.58152 18.5 7.25ZM12 9.5C12.7956 9.5 13.5587 9.81607 14.1213 10.3787C14.6839 10.9413 15 11.7044 15 12.5C15 13.2956 14.6839 14.0587 14.1213 14.6213C13.5587 15.1839 12.7956 15.5 12 15.5C11.2044 15.5 10.4413 15.1839 9.87868 14.6213C9.31607 14.0587 9 13.2956 9 12.5C9 11.7044 9.31607 10.9413 9.87868 10.3787C10.4413 9.81607 11.2044 9.5 12 9.5Z"
+                                            fill="#FF5300" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://twitter.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2_3248)">
+                                            <path
+                                                d="M22.1618 6.15593C21.3984 6.49362 20.5888 6.7154 19.7598 6.81393C20.6336 6.29136 21.2875 5.46894 21.5998 4.49993C20.7798 4.98793 19.8808 5.32993 18.9438 5.51493C18.3144 4.84151 17.4802 4.39489 16.5708 4.24451C15.6614 4.09413 14.7277 4.24842 13.9151 4.68338C13.1024 5.11834 12.4562 5.80961 12.0769 6.64972C11.6976 7.48983 11.6066 8.43171 11.8178 9.32893C10.1549 9.24558 8.52814 8.81345 7.0431 8.06059C5.55805 7.30773 4.24794 6.25097 3.19781 4.95893C2.8261 5.59738 2.63076 6.32315 2.63181 7.06193C2.63181 8.51193 3.36981 9.79293 4.49181 10.5429C3.82782 10.522 3.17844 10.3427 2.59781 10.0199V10.0719C2.59801 11.0376 2.93218 11.9735 3.54366 12.721C4.15513 13.4684 5.00629 13.9814 5.95281 14.1729C5.33642 14.34 4.69012 14.3646 4.06281 14.2449C4.32968 15.0762 4.84982 15.8031 5.5504 16.324C6.25099 16.8449 7.09694 17.1337 7.96981 17.1499C7.10229 17.8313 6.10899 18.3349 5.04669 18.6321C3.98439 18.9293 2.87394 19.0142 1.77881 18.8819C3.69051 20.1114 5.9159 20.764 8.18881 20.7619C15.8818 20.7619 20.0888 14.3889 20.0888 8.86193C20.0888 8.68193 20.0838 8.49993 20.0758 8.32193C20.8947 7.73009 21.6014 6.99695 22.1628 6.15693L22.1618 6.15593Z"
+                                                fill="#FF5300" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.skype.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.3102 20.8999C11.9879 21.1065 10.6355 20.9979 9.36308 20.5829C8.09069 20.168 6.93425 19.4585 5.98791 18.5122C5.04156 17.5658 4.33205 16.4094 3.91713 15.137C3.50221 13.8646 3.39361 12.5122 3.60016 11.1899C3.07889 10.1984 2.88841 9.0662 3.05657 7.95873C3.22472 6.85125 3.74269 5.8266 4.53477 5.03452C5.32684 4.24244 6.3515 3.72448 7.45897 3.55632C8.56644 3.38817 9.69867 3.57865 10.6902 4.09991C12.0125 3.89336 13.3648 4.00197 14.6372 4.41689C15.9096 4.83181 17.0661 5.54132 18.0124 6.48766C18.9588 7.43401 19.6683 8.59044 20.0832 9.86284C20.4981 11.1352 20.6067 12.4876 20.4002 13.8099C20.9214 14.8014 21.1119 15.9336 20.9437 17.0411C20.7756 18.1486 20.2576 19.1732 19.4655 19.9653C18.6735 20.7574 17.6488 21.2754 16.5413 21.4435C15.4339 21.6117 14.3016 21.4212 13.3102 20.8999ZM12.0522 17.6559H12.0122C14.8842 17.6559 16.3152 16.2699 16.3152 14.4129C16.3152 13.2149 15.7642 11.9419 13.5892 11.4549L11.6062 11.0149C10.8512 10.8429 9.98416 10.6149 9.98416 9.89991C9.98416 9.18491 10.6042 8.68691 11.7082 8.68691C13.9382 8.68691 13.7352 10.2149 14.8392 10.2149C15.4152 10.2149 15.9322 9.87291 15.9322 9.28491C15.9322 7.91491 13.7352 6.88491 11.8762 6.88491C9.85516 6.88491 7.70316 7.74391 7.70316 10.0289C7.70316 11.1269 8.09716 12.2989 10.2632 12.8419L12.9522 13.5129C13.7682 13.7149 13.9702 14.1719 13.9702 14.5849C13.9702 15.2719 13.2862 15.9429 12.0522 15.9429C9.63516 15.9429 9.97416 14.0859 8.67816 14.0859C8.09816 14.0859 7.67516 14.4839 7.67516 15.0569C7.67516 16.1709 9.02716 17.6549 12.0522 17.6549V17.6559Z"
+                                            fill="" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="ff-w pt-24 mb-0  wh-space pl-54 pr-54">Gustavo Herwitz</h2>
+                            <p class="f-p pt-12">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-1 ml-35">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/images/man-with-cup-of-tea.png" alt="man-with-cup-of-tea" class="">
+                        <div class="pos-abs1">
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2_3236)">
+                                            <path
+                                                d="M14 14H16.5L17.5 10H14V8C14 6.97 14 6 16 6H17.5V2.64C17.174 2.597 15.943 2.5 14.643 2.5C11.928 2.5 10 4.157 10 7.2V10H7V14H10V22.5H14V14Z"
+                                                fill="#FF5300" />
+                                        </g>
+
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2.5C14.717 2.5 15.056 2.51 16.122 2.56C17.187 2.61 17.912 2.777 18.55 3.025C19.21 3.279 19.766 3.623 20.322 4.178C20.8305 4.6779 21.224 5.28259 21.475 5.95C21.722 6.587 21.89 7.313 21.94 8.378C21.987 9.444 22 9.783 22 12.5C22 15.217 21.99 15.556 21.94 16.622C21.89 17.687 21.722 18.412 21.475 19.05C21.2247 19.7178 20.8311 20.3226 20.322 20.822C19.822 21.3303 19.2173 21.7238 18.55 21.975C17.913 22.222 17.187 22.39 16.122 22.44C15.056 22.487 14.717 22.5 12 22.5C9.283 22.5 8.944 22.49 7.878 22.44C6.813 22.39 6.088 22.222 5.45 21.975C4.78233 21.7245 4.17753 21.3309 3.678 20.822C3.16941 20.3222 2.77593 19.7175 2.525 19.05C2.277 18.413 2.11 17.687 2.06 16.622C2.013 15.556 2 15.217 2 12.5C2 9.783 2.01 9.444 2.06 8.378C2.11 7.312 2.277 6.588 2.525 5.95C2.77524 5.28218 3.1688 4.67732 3.678 4.178C4.17767 3.66923 4.78243 3.27573 5.45 3.025C6.088 2.777 6.812 2.61 7.878 2.56C8.944 2.513 9.283 2.5 12 2.5ZM12 7.5C10.6739 7.5 9.40215 8.02678 8.46447 8.96447C7.52678 9.90215 7 11.1739 7 12.5C7 13.8261 7.52678 15.0979 8.46447 16.0355C9.40215 16.9732 10.6739 17.5 12 17.5C13.3261 17.5 14.5979 16.9732 15.5355 16.0355C16.4732 15.0979 17 13.8261 17 12.5C17 11.1739 16.4732 9.90215 15.5355 8.96447C14.5979 8.02678 13.3261 7.5 12 7.5ZM18.5 7.25C18.5 6.91848 18.3683 6.60054 18.1339 6.36612C17.8995 6.1317 17.5815 6 17.25 6C16.9185 6 16.6005 6.1317 16.3661 6.36612C16.1317 6.60054 16 6.91848 16 7.25C16 7.58152 16.1317 7.89946 16.3661 8.13388C16.6005 8.3683 16.9185 8.5 17.25 8.5C17.5815 8.5 17.8995 8.3683 18.1339 8.13388C18.3683 7.89946 18.5 7.58152 18.5 7.25ZM12 9.5C12.7956 9.5 13.5587 9.81607 14.1213 10.3787C14.6839 10.9413 15 11.7044 15 12.5C15 13.2956 14.6839 14.0587 14.1213 14.6213C13.5587 15.1839 12.7956 15.5 12 15.5C11.2044 15.5 10.4413 15.1839 9.87868 14.6213C9.31607 14.0587 9 13.2956 9 12.5C9 11.7044 9.31607 10.9413 9.87868 10.3787C10.4413 9.81607 11.2044 9.5 12 9.5Z"
+                                            fill="#FF5300" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://twitter.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2_3248)">
+                                            <path
+                                                d="M22.1618 6.15593C21.3984 6.49362 20.5888 6.7154 19.7598 6.81393C20.6336 6.29136 21.2875 5.46894 21.5998 4.49993C20.7798 4.98793 19.8808 5.32993 18.9438 5.51493C18.3144 4.84151 17.4802 4.39489 16.5708 4.24451C15.6614 4.09413 14.7277 4.24842 13.9151 4.68338C13.1024 5.11834 12.4562 5.80961 12.0769 6.64972C11.6976 7.48983 11.6066 8.43171 11.8178 9.32893C10.1549 9.24558 8.52814 8.81345 7.0431 8.06059C5.55805 7.30773 4.24794 6.25097 3.19781 4.95893C2.8261 5.59738 2.63076 6.32315 2.63181 7.06193C2.63181 8.51193 3.36981 9.79293 4.49181 10.5429C3.82782 10.522 3.17844 10.3427 2.59781 10.0199V10.0719C2.59801 11.0376 2.93218 11.9735 3.54366 12.721C4.15513 13.4684 5.00629 13.9814 5.95281 14.1729C5.33642 14.34 4.69012 14.3646 4.06281 14.2449C4.32968 15.0762 4.84982 15.8031 5.5504 16.324C6.25099 16.8449 7.09694 17.1337 7.96981 17.1499C7.10229 17.8313 6.10899 18.3349 5.04669 18.6321C3.98439 18.9293 2.87394 19.0142 1.77881 18.8819C3.69051 20.1114 5.9159 20.764 8.18881 20.7619C15.8818 20.7619 20.0888 14.3889 20.0888 8.86193C20.0888 8.68193 20.0838 8.49993 20.0758 8.32193C20.8947 7.73009 21.6014 6.99695 22.1628 6.15693L22.1618 6.15593Z"
+                                                fill="#FF5300" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.skype.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.3102 20.8999C11.9879 21.1065 10.6355 20.9979 9.36308 20.5829C8.09069 20.168 6.93425 19.4585 5.98791 18.5122C5.04156 17.5658 4.33205 16.4094 3.91713 15.137C3.50221 13.8646 3.39361 12.5122 3.60016 11.1899C3.07889 10.1984 2.88841 9.0662 3.05657 7.95873C3.22472 6.85125 3.74269 5.8266 4.53477 5.03452C5.32684 4.24244 6.3515 3.72448 7.45897 3.55632C8.56644 3.38817 9.69867 3.57865 10.6902 4.09991C12.0125 3.89336 13.3648 4.00197 14.6372 4.41689C15.9096 4.83181 17.0661 5.54132 18.0124 6.48766C18.9588 7.43401 19.6683 8.59044 20.0832 9.86284C20.4981 11.1352 20.6067 12.4876 20.4002 13.8099C20.9214 14.8014 21.1119 15.9336 20.9437 17.0411C20.7756 18.1486 20.2576 19.1732 19.4655 19.9653C18.6735 20.7574 17.6488 21.2754 16.5413 21.4435C15.4339 21.6117 14.3016 21.4212 13.3102 20.8999ZM12.0522 17.6559H12.0122C14.8842 17.6559 16.3152 16.2699 16.3152 14.4129C16.3152 13.2149 15.7642 11.9419 13.5892 11.4549L11.6062 11.0149C10.8512 10.8429 9.98416 10.6149 9.98416 9.89991C9.98416 9.18491 10.6042 8.68691 11.7082 8.68691C13.9382 8.68691 13.7352 10.2149 14.8392 10.2149C15.4152 10.2149 15.9322 9.87291 15.9322 9.28491C15.9322 7.91491 13.7352 6.88491 11.8762 6.88491C9.85516 6.88491 7.70316 7.74391 7.70316 10.0289C7.70316 11.1269 8.09716 12.2989 10.2632 12.8419L12.9522 13.5129C13.7682 13.7149 13.9702 14.1719 13.9702 14.5849C13.9702 15.2719 13.2862 15.9429 12.0522 15.9429C9.63516 15.9429 9.97416 14.0859 8.67816 14.0859C8.09816 14.0859 7.67516 14.4839 7.67516 15.0569C7.67516 16.1709 9.02716 17.6549 12.0522 17.6549V17.6559Z"
+                                            fill="" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="ff-w pt-24 mb-0 wh-space pl-72 pr-72">Phillip Curtis</h2>
+                            <p class="f-p pt-12">Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-1 ml-35">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/images/girl-with.png" alt="girl-with-glasses" class="">
+                        <div class="pos-abs1">
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2_3236)">
+                                            <path
+                                                d="M14 14H16.5L17.5 10H14V8C14 6.97 14 6 16 6H17.5V2.64C17.174 2.597 15.943 2.5 14.643 2.5C11.928 2.5 10 4.157 10 7.2V10H7V14H10V22.5H14V14Z"
+                                                fill="#FF5300" />
+                                        </g>
+
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2.5C14.717 2.5 15.056 2.51 16.122 2.56C17.187 2.61 17.912 2.777 18.55 3.025C19.21 3.279 19.766 3.623 20.322 4.178C20.8305 4.6779 21.224 5.28259 21.475 5.95C21.722 6.587 21.89 7.313 21.94 8.378C21.987 9.444 22 9.783 22 12.5C22 15.217 21.99 15.556 21.94 16.622C21.89 17.687 21.722 18.412 21.475 19.05C21.2247 19.7178 20.8311 20.3226 20.322 20.822C19.822 21.3303 19.2173 21.7238 18.55 21.975C17.913 22.222 17.187 22.39 16.122 22.44C15.056 22.487 14.717 22.5 12 22.5C9.283 22.5 8.944 22.49 7.878 22.44C6.813 22.39 6.088 22.222 5.45 21.975C4.78233 21.7245 4.17753 21.3309 3.678 20.822C3.16941 20.3222 2.77593 19.7175 2.525 19.05C2.277 18.413 2.11 17.687 2.06 16.622C2.013 15.556 2 15.217 2 12.5C2 9.783 2.01 9.444 2.06 8.378C2.11 7.312 2.277 6.588 2.525 5.95C2.77524 5.28218 3.1688 4.67732 3.678 4.178C4.17767 3.66923 4.78243 3.27573 5.45 3.025C6.088 2.777 6.812 2.61 7.878 2.56C8.944 2.513 9.283 2.5 12 2.5ZM12 7.5C10.6739 7.5 9.40215 8.02678 8.46447 8.96447C7.52678 9.90215 7 11.1739 7 12.5C7 13.8261 7.52678 15.0979 8.46447 16.0355C9.40215 16.9732 10.6739 17.5 12 17.5C13.3261 17.5 14.5979 16.9732 15.5355 16.0355C16.4732 15.0979 17 13.8261 17 12.5C17 11.1739 16.4732 9.90215 15.5355 8.96447C14.5979 8.02678 13.3261 7.5 12 7.5ZM18.5 7.25C18.5 6.91848 18.3683 6.60054 18.1339 6.36612C17.8995 6.1317 17.5815 6 17.25 6C16.9185 6 16.6005 6.1317 16.3661 6.36612C16.1317 6.60054 16 6.91848 16 7.25C16 7.58152 16.1317 7.89946 16.3661 8.13388C16.6005 8.3683 16.9185 8.5 17.25 8.5C17.5815 8.5 17.8995 8.3683 18.1339 8.13388C18.3683 7.89946 18.5 7.58152 18.5 7.25ZM12 9.5C12.7956 9.5 13.5587 9.81607 14.1213 10.3787C14.6839 10.9413 15 11.7044 15 12.5C15 13.2956 14.6839 14.0587 14.1213 14.6213C13.5587 15.1839 12.7956 15.5 12 15.5C11.2044 15.5 10.4413 15.1839 9.87868 14.6213C9.31607 14.0587 9 13.2956 9 12.5C9 11.7044 9.31607 10.9413 9.87868 10.3787C10.4413 9.81607 11.2044 9.5 12 9.5Z"
+                                            fill="#FF5300" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://twitter.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2_3248)">
+                                            <path
+                                                d="M22.1618 6.15593C21.3984 6.49362 20.5888 6.7154 19.7598 6.81393C20.6336 6.29136 21.2875 5.46894 21.5998 4.49993C20.7798 4.98793 19.8808 5.32993 18.9438 5.51493C18.3144 4.84151 17.4802 4.39489 16.5708 4.24451C15.6614 4.09413 14.7277 4.24842 13.9151 4.68338C13.1024 5.11834 12.4562 5.80961 12.0769 6.64972C11.6976 7.48983 11.6066 8.43171 11.8178 9.32893C10.1549 9.24558 8.52814 8.81345 7.0431 8.06059C5.55805 7.30773 4.24794 6.25097 3.19781 4.95893C2.8261 5.59738 2.63076 6.32315 2.63181 7.06193C2.63181 8.51193 3.36981 9.79293 4.49181 10.5429C3.82782 10.522 3.17844 10.3427 2.59781 10.0199V10.0719C2.59801 11.0376 2.93218 11.9735 3.54366 12.721C4.15513 13.4684 5.00629 13.9814 5.95281 14.1729C5.33642 14.34 4.69012 14.3646 4.06281 14.2449C4.32968 15.0762 4.84982 15.8031 5.5504 16.324C6.25099 16.8449 7.09694 17.1337 7.96981 17.1499C7.10229 17.8313 6.10899 18.3349 5.04669 18.6321C3.98439 18.9293 2.87394 19.0142 1.77881 18.8819C3.69051 20.1114 5.9159 20.764 8.18881 20.7619C15.8818 20.7619 20.0888 14.3889 20.0888 8.86193C20.0888 8.68193 20.0838 8.49993 20.0758 8.32193C20.8947 7.73009 21.6014 6.99695 22.1628 6.15693L22.1618 6.15593Z"
+                                                fill="#FF5300" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.skype.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.3102 20.8999C11.9879 21.1065 10.6355 20.9979 9.36308 20.5829C8.09069 20.168 6.93425 19.4585 5.98791 18.5122C5.04156 17.5658 4.33205 16.4094 3.91713 15.137C3.50221 13.8646 3.39361 12.5122 3.60016 11.1899C3.07889 10.1984 2.88841 9.0662 3.05657 7.95873C3.22472 6.85125 3.74269 5.8266 4.53477 5.03452C5.32684 4.24244 6.3515 3.72448 7.45897 3.55632C8.56644 3.38817 9.69867 3.57865 10.6902 4.09991C12.0125 3.89336 13.3648 4.00197 14.6372 4.41689C15.9096 4.83181 17.0661 5.54132 18.0124 6.48766C18.9588 7.43401 19.6683 8.59044 20.0832 9.86284C20.4981 11.1352 20.6067 12.4876 20.4002 13.8099C20.9214 14.8014 21.1119 15.9336 20.9437 17.0411C20.7756 18.1486 20.2576 19.1732 19.4655 19.9653C18.6735 20.7574 17.6488 21.2754 16.5413 21.4435C15.4339 21.6117 14.3016 21.4212 13.3102 20.8999ZM12.0522 17.6559H12.0122C14.8842 17.6559 16.3152 16.2699 16.3152 14.4129C16.3152 13.2149 15.7642 11.9419 13.5892 11.4549L11.6062 11.0149C10.8512 10.8429 9.98416 10.6149 9.98416 9.89991C9.98416 9.18491 10.6042 8.68691 11.7082 8.68691C13.9382 8.68691 13.7352 10.2149 14.8392 10.2149C15.4152 10.2149 15.9322 9.87291 15.9322 9.28491C15.9322 7.91491 13.7352 6.88491 11.8762 6.88491C9.85516 6.88491 7.70316 7.74391 7.70316 10.0289C7.70316 11.1269 8.09716 12.2989 10.2632 12.8419L12.9522 13.5129C13.7682 13.7149 13.9702 14.1719 13.9702 14.5849C13.9702 15.2719 13.2862 15.9429 12.0522 15.9429C9.63516 15.9429 9.97416 14.0859 8.67816 14.0859C8.09816 14.0859 7.67516 14.4839 7.67516 15.0569C7.67516 16.1709 9.02716 17.6549 12.0522 17.6549V17.6559Z"
+                                            fill="" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="ff-w pt-24 mb-0 pl-82 pr-82 wh-space">Talan Torff</h2>
+                            <p class="f-p pt-12">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-1 ml-35">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/images/short-hair-girl.png" alt="short-hair-girl" class="">
+                        <div class="pos-abs1">
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2_3236)">
+                                            <path
+                                                d="M14 14H16.5L17.5 10H14V8C14 6.97 14 6 16 6H17.5V2.64C17.174 2.597 15.943 2.5 14.643 2.5C11.928 2.5 10 4.157 10 7.2V10H7V14H10V22.5H14V14Z"
+                                                fill="#FF5300" />
+                                        </g>
+
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2.5C14.717 2.5 15.056 2.51 16.122 2.56C17.187 2.61 17.912 2.777 18.55 3.025C19.21 3.279 19.766 3.623 20.322 4.178C20.8305 4.6779 21.224 5.28259 21.475 5.95C21.722 6.587 21.89 7.313 21.94 8.378C21.987 9.444 22 9.783 22 12.5C22 15.217 21.99 15.556 21.94 16.622C21.89 17.687 21.722 18.412 21.475 19.05C21.2247 19.7178 20.8311 20.3226 20.322 20.822C19.822 21.3303 19.2173 21.7238 18.55 21.975C17.913 22.222 17.187 22.39 16.122 22.44C15.056 22.487 14.717 22.5 12 22.5C9.283 22.5 8.944 22.49 7.878 22.44C6.813 22.39 6.088 22.222 5.45 21.975C4.78233 21.7245 4.17753 21.3309 3.678 20.822C3.16941 20.3222 2.77593 19.7175 2.525 19.05C2.277 18.413 2.11 17.687 2.06 16.622C2.013 15.556 2 15.217 2 12.5C2 9.783 2.01 9.444 2.06 8.378C2.11 7.312 2.277 6.588 2.525 5.95C2.77524 5.28218 3.1688 4.67732 3.678 4.178C4.17767 3.66923 4.78243 3.27573 5.45 3.025C6.088 2.777 6.812 2.61 7.878 2.56C8.944 2.513 9.283 2.5 12 2.5ZM12 7.5C10.6739 7.5 9.40215 8.02678 8.46447 8.96447C7.52678 9.90215 7 11.1739 7 12.5C7 13.8261 7.52678 15.0979 8.46447 16.0355C9.40215 16.9732 10.6739 17.5 12 17.5C13.3261 17.5 14.5979 16.9732 15.5355 16.0355C16.4732 15.0979 17 13.8261 17 12.5C17 11.1739 16.4732 9.90215 15.5355 8.96447C14.5979 8.02678 13.3261 7.5 12 7.5ZM18.5 7.25C18.5 6.91848 18.3683 6.60054 18.1339 6.36612C17.8995 6.1317 17.5815 6 17.25 6C16.9185 6 16.6005 6.1317 16.3661 6.36612C16.1317 6.60054 16 6.91848 16 7.25C16 7.58152 16.1317 7.89946 16.3661 8.13388C16.6005 8.3683 16.9185 8.5 17.25 8.5C17.5815 8.5 17.8995 8.3683 18.1339 8.13388C18.3683 7.89946 18.5 7.58152 18.5 7.25ZM12 9.5C12.7956 9.5 13.5587 9.81607 14.1213 10.3787C14.6839 10.9413 15 11.7044 15 12.5C15 13.2956 14.6839 14.0587 14.1213 14.6213C13.5587 15.1839 12.7956 15.5 12 15.5C11.2044 15.5 10.4413 15.1839 9.87868 14.6213C9.31607 14.0587 9 13.2956 9 12.5C9 11.7044 9.31607 10.9413 9.87868 10.3787C10.4413 9.81607 11.2044 9.5 12 9.5Z"
+                                            fill="#FF5300" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://twitter.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2_3248)">
+                                            <path
+                                                d="M22.1618 6.15593C21.3984 6.49362 20.5888 6.7154 19.7598 6.81393C20.6336 6.29136 21.2875 5.46894 21.5998 4.49993C20.7798 4.98793 19.8808 5.32993 18.9438 5.51493C18.3144 4.84151 17.4802 4.39489 16.5708 4.24451C15.6614 4.09413 14.7277 4.24842 13.9151 4.68338C13.1024 5.11834 12.4562 5.80961 12.0769 6.64972C11.6976 7.48983 11.6066 8.43171 11.8178 9.32893C10.1549 9.24558 8.52814 8.81345 7.0431 8.06059C5.55805 7.30773 4.24794 6.25097 3.19781 4.95893C2.8261 5.59738 2.63076 6.32315 2.63181 7.06193C2.63181 8.51193 3.36981 9.79293 4.49181 10.5429C3.82782 10.522 3.17844 10.3427 2.59781 10.0199V10.0719C2.59801 11.0376 2.93218 11.9735 3.54366 12.721C4.15513 13.4684 5.00629 13.9814 5.95281 14.1729C5.33642 14.34 4.69012 14.3646 4.06281 14.2449C4.32968 15.0762 4.84982 15.8031 5.5504 16.324C6.25099 16.8449 7.09694 17.1337 7.96981 17.1499C7.10229 17.8313 6.10899 18.3349 5.04669 18.6321C3.98439 18.9293 2.87394 19.0142 1.77881 18.8819C3.69051 20.1114 5.9159 20.764 8.18881 20.7619C15.8818 20.7619 20.0888 14.3889 20.0888 8.86193C20.0888 8.68193 20.0838 8.49993 20.0758 8.32193C20.8947 7.73009 21.6014 6.99695 22.1628 6.15693L22.1618 6.15593Z"
+                                                fill="#FF5300" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="card-5 d-flex align-items-center justify-content-center">
+                                <a href="https://www.skype.com/" target="_blank">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.3102 20.8999C11.9879 21.1065 10.6355 20.9979 9.36308 20.5829C8.09069 20.168 6.93425 19.4585 5.98791 18.5122C5.04156 17.5658 4.33205 16.4094 3.91713 15.137C3.50221 13.8646 3.39361 12.5122 3.60016 11.1899C3.07889 10.1984 2.88841 9.0662 3.05657 7.95873C3.22472 6.85125 3.74269 5.8266 4.53477 5.03452C5.32684 4.24244 6.3515 3.72448 7.45897 3.55632C8.56644 3.38817 9.69867 3.57865 10.6902 4.09991C12.0125 3.89336 13.3648 4.00197 14.6372 4.41689C15.9096 4.83181 17.0661 5.54132 18.0124 6.48766C18.9588 7.43401 19.6683 8.59044 20.0832 9.86284C20.4981 11.1352 20.6067 12.4876 20.4002 13.8099C20.9214 14.8014 21.1119 15.9336 20.9437 17.0411C20.7756 18.1486 20.2576 19.1732 19.4655 19.9653C18.6735 20.7574 17.6488 21.2754 16.5413 21.4435C15.4339 21.6117 14.3016 21.4212 13.3102 20.8999ZM12.0522 17.6559H12.0122C14.8842 17.6559 16.3152 16.2699 16.3152 14.4129C16.3152 13.2149 15.7642 11.9419 13.5892 11.4549L11.6062 11.0149C10.8512 10.8429 9.98416 10.6149 9.98416 9.89991C9.98416 9.18491 10.6042 8.68691 11.7082 8.68691C13.9382 8.68691 13.7352 10.2149 14.8392 10.2149C15.4152 10.2149 15.9322 9.87291 15.9322 9.28491C15.9322 7.91491 13.7352 6.88491 11.8762 6.88491C9.85516 6.88491 7.70316 7.74391 7.70316 10.0289C7.70316 11.1269 8.09716 12.2989 10.2632 12.8419L12.9522 13.5129C13.7682 13.7149 13.9702 14.1719 13.9702 14.5849C13.9702 15.2719 13.2862 15.9429 12.0522 15.9429C9.63516 15.9429 9.97416 14.0859 8.67816 14.0859C8.09816 14.0859 7.67516 14.4839 7.67516 15.0569C7.67516 16.1709 9.02716 17.6549 12.0522 17.6549V17.6559Z"
+                                            fill="" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="ff-w pt-24 mb-0  wh-space pl-61 pr-61">Abram Vaccaro</h2>
+                            <p class="f-p pt-12">App Developer</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container pb-120">
+            <div>
+                <p class="f-p text-center">Our Work</p>
+                <div class="d-flex justify-content-center text-center">
+                    <h2 class="font-2">We Have Some <br>
+                        <span class="font-3">Designed & Development</span>
+                        Projects
+                    </h2>
+                </div>
+            </div>
+            <div class="pb-60">
+                <ul class="d-flex align-items-center gap-43 justify-content-center pt-26 overflow-auto linkBox">
+                    <li><a href="" class="para-3 wh-space">All</a></li>
+                    <li><a href="" class="para-3 wh-space">Graphic Design</a></li>
+                    <li><a href="" class="para-3 wh-space">UI/UX Design</a></li>
+                    <li><a href="" class="para-3 wh-space">Web Development</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="position-relative img-hover overflow-hidden">
+                        <img src="./assets/images/grid-image-1.png" alt="" class="w-100">
+                        <div class="box-7 d-flex flex-column pt-176 pt-94 align-items-center ">
+                            <svg width="40" height="41" viewBox="0 0 40 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_32783)">
+                                    <path
+                                        d="M30.0518 28.1949L37.1902 35.3316L34.8318 37.6899L27.6952 30.5516C25.0397 32.6803 21.7368 33.8381 18.3335 33.8333C10.0535 33.8333 3.3335 27.1133 3.3335 18.8333C3.3335 10.5533 10.0535 3.83325 18.3335 3.83325C26.6135 3.83325 33.3335 10.5533 33.3335 18.8333C33.3383 22.2366 32.1805 25.5395 30.0518 28.1949ZM26.7085 26.9583C28.8237 24.7831 30.0049 21.8673 30.0002 18.8333C30.0002 12.3866 24.7785 7.16659 18.3335 7.16659C11.8868 7.16659 6.66683 12.3866 6.66683 18.8333C6.66683 25.2783 11.8868 30.4999 18.3335 30.4999C21.3675 30.5047 24.2833 29.3234 26.4585 27.2083L26.7085 26.9583Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_327890">
+                                        <rect width="40" height="40" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p class="grid-p pt-24 mb-0 wh-space">Latest work</p>
+                            <p class="par-3 pt-18 wh-space">UI/UX Design</p>
+
+                        </div>
+                    </div>
+                    <div class="position-relative img-hover overflow-hidden">
+                        <img src="./assets/images/grid-image-2.png" alt="grid-image-2" class="w-100">
+                        <div class="box-7 d-flex flex-column pt-203 pt-94 align-items-center ">
+                            <svg width="40" height="41" viewBox="0 0 40 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_3278)">
+                                    <path
+                                        d="M30.0518 28.1949L37.1902 35.3316L34.8318 37.6899L27.6952 30.5516C25.0397 32.6803 21.7368 33.8381 18.3335 33.8333C10.0535 33.8333 3.3335 27.1133 3.3335 18.8333C3.3335 10.5533 10.0535 3.83325 18.3335 3.83325C26.6135 3.83325 33.3335 10.5533 33.3335 18.8333C33.3383 22.2366 32.1805 25.5395 30.0518 28.1949ZM26.7085 26.9583C28.8237 24.7831 30.0049 21.8673 30.0002 18.8333C30.0002 12.3866 24.7785 7.16659 18.3335 7.16659C11.8868 7.16659 6.66683 12.3866 6.66683 18.8333C6.66683 25.2783 11.8868 30.4999 18.3335 30.4999C21.3675 30.5047 24.2833 29.3234 26.4585 27.2083L26.7085 26.9583Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_32781309">
+                                        <rect width="40" height="40" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p class="grid-p pt-24 mb-0 wh-space">Latest work</p>
+                            <p class="par-3 pt-18 wh-space">UI/UX Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="position-relative img-hover overflow-hidden">
+                        <img src="./assets/images/grid-image-3.png" alt="grid-image-3" class="w-100">
+                        <div class="box-7 d-flex flex-column pt-203 pt-94 align-items-center ">
+                            <svg width="40" height="41" viewBox="0 0 40 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_3278)">
+                                    <path
+                                        d="M30.0518 28.1949L37.1902 35.3316L34.8318 37.6899L27.6952 30.5516C25.0397 32.6803 21.7368 33.8381 18.3335 33.8333C10.0535 33.8333 3.3335 27.1133 3.3335 18.8333C3.3335 10.5533 10.0535 3.83325 18.3335 3.83325C26.6135 3.83325 33.3335 10.5533 33.3335 18.8333C33.3383 22.2366 32.1805 25.5395 30.0518 28.1949ZM26.7085 26.9583C28.8237 24.7831 30.0049 21.8673 30.0002 18.8333C30.0002 12.3866 24.7785 7.16659 18.3335 7.16659C11.8868 7.16659 6.66683 12.3866 6.66683 18.8333C6.66683 25.2783 11.8868 30.4999 18.3335 30.4999C21.3675 30.5047 24.2833 29.3234 26.4585 27.2083L26.7085 26.9583Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_32782">
+                                        <rect width="40" height="40" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p class="grid-p pt-24 mb-0 wh-space">Latest work</p>
+                            <p class="par-3 pt-18 wh-space">UI/UX Design</p>
+
+                        </div>
+                    </div>
+                    <div class="position-relative img-hover overflow-hidden">
+                        <img src="./assets/images/grid-image-4.png" alt="grid-image-4" class="w-100">
+                        <div class="box-7 d-flex flex-column pt-203 pt-94 align-items-center ">
+                            <svg width="40" height="41" viewBox="0 0 40 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_32784)">
+                                    <path
+                                        d="M30.0518 28.1949L37.1902 35.3316L34.8318 37.6899L27.6952 30.5516C25.0397 32.6803 21.7368 33.8381 18.3335 33.8333C10.0535 33.8333 3.3335 27.1133 3.3335 18.8333C3.3335 10.5533 10.0535 3.83325 18.3335 3.83325C26.6135 3.83325 33.3335 10.5533 33.3335 18.8333C33.3383 22.2366 32.1805 25.5395 30.0518 28.1949ZM26.7085 26.9583C28.8237 24.7831 30.0049 21.8673 30.0002 18.8333C30.0002 12.3866 24.7785 7.16659 18.3335 7.16659C11.8868 7.16659 6.66683 12.3866 6.66683 18.8333C6.66683 25.2783 11.8868 30.4999 18.3335 30.4999C21.3675 30.5047 24.2833 29.3234 26.4585 27.2083L26.7085 26.9583Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_3278130">
+                                        <rect width="40" height="40" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p class="grid-p pt-24 mb-0 wh-space">Latest work</p>
+                            <p class="par-3 pt-18 wh-space">UI/UX Design</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="overflow-hidden position-relative img-hover">
+                        <img src="./assets/images/grid-image-5.png" alt="grid-image-5" class="w-100">
+                        <div class="box-7 d-flex flex-column pt-203 pt-94 align-items-center ">
+                            <svg width="40" height="41" viewBox="0 0 40 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_32785)">
+                                    <path
+                                        d="M30.0518 28.1949L37.1902 35.3316L34.8318 37.6899L27.6952 30.5516C25.0397 32.6803 21.7368 33.8381 18.3335 33.8333C10.0535 33.8333 3.3335 27.1133 3.3335 18.8333C3.3335 10.5533 10.0535 3.83325 18.3335 3.83325C26.6135 3.83325 33.3335 10.5533 33.3335 18.8333C33.3383 22.2366 32.1805 25.5395 30.0518 28.1949ZM26.7085 26.9583C28.8237 24.7831 30.0049 21.8673 30.0002 18.8333C30.0002 12.3866 24.7785 7.16659 18.3335 7.16659C11.8868 7.16659 6.66683 12.3866 6.66683 18.8333C6.66683 25.2783 11.8868 30.4999 18.3335 30.4999C21.3675 30.5047 24.2833 29.3234 26.4585 27.2083L26.7085 26.9583Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_32787">
+                                        <rect width="40" height="40" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p class="grid-p pt-24 mb-0 wh-space">Latest work</p>
+                            <p class="par-3 pt-18 wh-space">UI/UX Design</p>
+
+                        </div>
+                    </div>
+                    <div class="position-relative img-hover overflow-hidden">
+                        <img src="./assets/images/grid-imagge-6.png" alt="grid-imagge-6" class="w-100">
+                        <div class="box-7 d-flex flex-column align-items-center pt-94 pt-203">
+                            <svg class="" width="40" height="41" viewBox="0 0 40 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_32789)">
+                                    <path
+                                        d="M30.0518 28.1949L37.1902 35.3316L34.8318 37.6899L27.6952 30.5516C25.0397 32.6803 21.7368 33.8381 18.3335 33.8333C10.0535 33.8333 3.3335 27.1133 3.3335 18.8333C3.3335 10.5533 10.0535 3.83325 18.3335 3.83325C26.6135 3.83325 33.3335 10.5533 33.3335 18.8333C33.3383 22.2366 32.1805 25.5395 30.0518 28.1949ZM26.7085 26.9583C28.8237 24.7831 30.0049 21.8673 30.0002 18.8333C30.0002 12.3866 24.7785 7.16659 18.3335 7.16659C11.8868 7.16659 6.66683 12.3866 6.66683 18.8333C6.66683 25.2783 11.8868 30.4999 18.3335 30.4999C21.3675 30.5047 24.2833 29.3234 26.4585 27.2083L26.7085 26.9583Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_32786">
+                                        <rect width="40" height="40" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p class="grid-p pt-24 mb-0 wh-space">Latest work</p>
+                            <p class="par-3 pt-18 wh-space">UI/UX Design</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-pinkish">
+        <div class="container pt-60 pb-120">
+            <p class="f-p text-center">Clients Feedback</p>
+            <div class="text-center">
+                <h2 class="font-2">Some<span class="font-3">
+                        Great <br> Words</span> From Our Clients</h2>
+            </div>
+            <div class="slider-3 pt-60">
+                <div class="pl-101 pl-36">
+                    <div class="box-4 position-relative">
+                        <img src="./assets/images/profile-img.png" alt="profile-img" class="pos-ab1">
+                        <h2 class="par-1">Justin Septimus</h2>
+                        <p class="par-2">CEO,word yt</p>
+                        <p class="par-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="d-none d-sm-block">Sit a laoreet libero
+                            dis eget maecenas
+                            bibendum. Morbi lacinia
+                            eu, etiam volutpat morbi et amet, sagittis adipiscing.</span></p>
+                    </div>
+                </div>
+                <div class="pl-101 pl-36">
+                    <div class="box-4 position-relative">
+                        <img src="./assets/images/profile-pic-2.png" alt="profile-pic-2" class="pos-ab1">
+                        <h2 class="par-1">Justin Septimus</h2>
+                        <p class="par-2">CEO,word yt</p>
+                        <p class="par-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="d-none d-sm-block">Sit a laoreet libero
+                            dis
+                            eget maecenas
+                            bibendum. Morbi lacinia
+                            eu, etiam volutpat morbi et amet, sagittis adipiscing</span></p>
+
+                    </div>
+                </div>
+                <div class="pl-101 pl-36">
+                    <div class="box-4 position-relative">
+                        <img src="./assets/images/profile-img.png" alt="profile-img" class="pos-ab1">
+                        <h2 class="par-1">Justin Septimus</h2>
+                        <p class="par-2">CEO,word yt</p>
+                        <p class="par-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="d-none d-sm-block">Sit a laoreet libero
+                            dis eget maecenas
+                            bibendum. Morbi lacinia
+                            eu, etiam volutpat morbi et amet, sagittis adipiscing.</span></p>
+                    </div>
+                </div>
+                <div class="pl-101 pl-36">
+                    <div class="box-4 position-relative">
+                        <img src="./assets/images/profile-pic-2.png" alt="profile-pic-2" class="pos-ab1">
+                        <h2 class="par-1">Justin Septimus</h2>
+                        <p class="par-2">CEO,word yt</p>
+                        <p class="par-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="d-none d-sm-block">Sit a laoreet libero
+                            dis
+                            eget maecenas
+                            bibendum. Morbi lacinia
+                            eu, etiam volutpat morbi et amet, sagittis adipiscing.</span></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container pb-206">
+            <div class="pt-120">
+                <p class="f-p text-center">Our Blog</p>
+                <h2 class="font-2 text-center">Our Latest <span class="font-3"> Blogs<br>
+                        Will Keep </span> Everyone Updated</h2>
+                <div class="slider-2 pt-60">
+                    <div class="box-5">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="text-red">Graphic Design</p>
+                                <h2 class="para-5">35 Stellar Graphic
+                                    Design Blogs to Keep You
+                                    Educated and Inspired</h2>
+                            </div>
+                            <div>
+                                <img src="./assets/images/keyboard.png" alt="keyboard" class="w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex pt-26 ">
+                            <div>
+                                <img src="./assets/images/Profile.png" alt="Profile" class="w-100">
+                            </div>
+                            <div class="pl-10 pt-15">
+                                <h2 class="ff-w mb-0">Cristofer Westervelt</h2>
+                                <div class="d-flex  align-items-center">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-12">
+                                            <p class="date-p mb-0 wh-space">January 25, 2021</p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-12 d-flex align-items-center">
+                                            <span class=""><svg width="5" height="6" viewBox="0 0 5 6" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="3" r="2.5" fill="#7B7B7B" />
+                                                </svg>
+                                            </span>
+                                            <p class="date-p mb-0 pl-10 wh-space">5 min Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-5">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="text-red">Managing Director</p>
+                                <h2 class="para-5">Ridiculously powerful
+                                    2021 iPad Pro may drop this
+                                    month</h2>
+                            </div>
+                            <div>
+                                <img src="./assets/images/tab-image.png" alt="tab-image" class="w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex pt-26 pt-86 pt-27">
+                            <div>
+                                <img src="./assets/images/tab-pic-2.png" alt="tab-pic-2" class="w-100">
+                            </div>
+                            <div class="pl-10 pt-15">
+                                <h2 class="ff-w mb-0">Haylie Mango</h2>
+                                <div class="d-flex  align-items-center">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-12 ">
+                                            <p class="date-p mb-0 wh-space">January 25, 2021</p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-12  d-flex align-items-center">
+                                            <span class=""><svg width="5" height="6" viewBox="0 0 5 6" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="3" r="2.5" fill="#7B7B7B" />
+                                                </svg>
+                                            </span>
+                                            <p class="date-p mb-0 pl-10 wh-space">5 min Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-5">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="text-red">Graphic Design</p>
+                                <h2 class="para-5">35 Stellar Graphic
+                                    Design Blogs to Keep You
+                                    Educated and Inspired</h2>
+                            </div>
+                            <div>
+                                <img src="./assets/images/keyboard.png" alt="keyboard" class="w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex pt-26 ">
+                            <div>
+                                <img src="./assets/images/Profile.png" alt="profile-img" class="w-100">
+                            </div>
+                            <div class="pl-10 pt-15">
+                                <h2 class="ff-w mb-0">Cristofer Westervelt</h2>
+                                <div class="d-flex  align-items-center">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-12 ">
+                                            <p class="date-p mb-0 wh-space">January 25, 2021</p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-12  d-flex align-items-center">
+                                            <span class=""><svg width="5" height="6" viewBox="0 0 5 6" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="3" r="2.5" fill="#7B7B7B" />
+                                                </svg>
+                                            </span>
+                                            <p class="date-p mb-0 pl-10 wh-space">5 min Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-5">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="text-red">Managing Director</p>
+                                <h2 class="para-5">Ridiculously powerful
+                                    2021 iPad Pro may drop this
+                                    month</h2>
+                            </div>
+                            <div>
+                                <img src="./assets/images/tab-image.png" alt="tab-image" class="w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex pt-26 pt-86 pt-27">
+                            <div>
+                                <img src="./assets/images/tab-pic-2.png" alt="tab-pic-2" class="w-100">
+                            </div>
+                            <div class="pl-10 pt-15">
+                                <h2 class="ff-w mb-0">Haylie Mango</h2>
+                                <div class="d-flex  align-items-center">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-12 ">
+                                            <p class="date-p mb-0 wh-space">January 25, 2021</p>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-12  d-flex align-items-center">
+                                            <span class=""><svg width="5" height="6" viewBox="0 0 5 6" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx="2.5" cy="3" r="2.5" fill="#7B7B7B" />
+                                                </svg>
+                                            </span>
+                                            <p class="date-p mb-0 pl-10 wh-space">5 min Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="pb-60">
+                <p class="f-p mb-0 text-center">Contact Us</p>
+                <h2 class="font-2 pt-24 text-center">Feel <span class="font-3"> Free<br>
+                        to Contact</span> With Us</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mt-34">
+                    <div class="card-7">
+                        <div class="d-flex">
+                            <div class="circle-3 d-flex align-items-center justify-content-center">
+                                <svg width="36" height="37" viewBox="0 0 36 37" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 6.5H30C31.65 6.5 33 7.85 33 9.5V27.5C33 29.15 31.65 30.5 30 30.5H6C4.35 30.5 3 29.15 3 27.5V9.5C3 7.85 4.35 6.5 6 6.5Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M33 9.5L18 20L3 9.5" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </div>
+                            <div class="pl-18">
+                                <p class="text-orange mb-0 wh-space">Drop a line</p>
+                                <p class="text-2 mb-0 wh-space">Mail Us</p>
+                            </div>
+                        </div>
+                        <p class="e-mail-p mb-0 pt-38">Support87@gmial.com</p>
+                        <p class="e-mail-p mb-0 pt-15">ijkuiu874@gmial.com</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-34">
+                    <div class="card-7">
+                        <div class="d-flex">
+                            <div class="circle-3 d-flex align-items-center justify-content-center">
+                                <svg width="36" height="37" viewBox="0 0 36 37" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22.5751 8C24.0402 8.28585 25.3867 9.00239 26.4422 10.0579C27.4978 11.1134 28.2143 12.4599 28.5001 13.925L22.5751 8ZM22.5751 2C25.6191 2.33815 28.4575 3.70126 30.6245 5.86551C32.7915 8.02976 34.1582 10.8665 34.5001 13.91L22.5751 2ZM33.0001 25.88V30.38C33.0018 30.7978 32.9163 31.2113 32.7489 31.594C32.5816 31.9768 32.3361 32.3204 32.0283 32.6028C31.7204 32.8852 31.357 33.1002 30.9613 33.2341C30.5655 33.3679 30.1462 33.4176 29.7301 33.38C25.1144 32.8785 20.6806 31.3012 16.7851 28.775C13.1609 26.472 10.0881 23.3993 7.78514 19.775C5.25011 15.8618 3.67251 11.4065 3.18014 6.77C3.14266 6.3552 3.19196 5.93714 3.32489 5.54244C3.45783 5.14773 3.6715 4.78503 3.95229 4.47743C4.23309 4.16983 4.57485 3.92406 4.95583 3.75578C5.33681 3.5875 5.74865 3.50039 6.16514 3.5H10.6651C11.3931 3.49284 12.0988 3.75062 12.6508 4.2253C13.2027 4.69998 13.5633 5.35917 13.6651 6.08C13.8551 7.5201 14.2073 8.93409 14.7151 10.295C14.917 10.8319 14.9606 11.4154 14.841 11.9763C14.7214 12.5373 14.4434 13.0522 14.0401 13.46L12.1351 15.365C14.2705 19.1203 17.3798 22.2297 21.1351 24.365L23.0401 22.46C23.448 22.0567 23.9629 21.7788 24.5238 21.6591C25.0848 21.5395 25.6683 21.5832 26.2051 21.785C27.5661 22.2928 28.98 22.6451 30.4201 22.835C31.1488 22.9378 31.8142 23.3048 32.2899 23.8662C32.7656 24.4277 33.0184 25.1444 33.0001 25.88Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="pl-18">
+                                <p class="text-orange mb-0 wh-space">24/7 Service</p>
+                                <p class="text-2 mb-0">Call Us</p>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-38">
+                            <p class="e-mail-p mb-0 wh-space">+880 265 98745</p>
+                            <p class="text-orange fs-20 mb-0 pl-18 wh-space">(Toll free)</p>
+                        </div>
+                        <p class="e-mail-p mb-0 pt-15">+895 855 85589</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-34">
+                    <div class="card-7">
+                        <div class="d-flex">
+                            <div class="circle-3 d-flex align-items-center justify-content-center">
+                                <svg width="36" height="37" viewBox="0 0 36 37" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 6.5H30C31.65 6.5 33 7.85 33 9.5V27.5C33 29.15 31.65 30.5 30 30.5H6C4.35 30.5 3 29.15 3 27.5V9.5C3 7.85 4.35 6.5 6 6.5Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M33 9.5L18 20L3 9.5" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </div>
+                            <div class="pl-18">
+                                <p class="text-orange mb-0">Location</p>
+                                <p class="text-2 mb-0">Visit Us</p>
+                            </div>
+                        </div>
+                        <div class="pt-38">
+                            <p class="e-mail-p mb-0 wh-space pb-15">158 ralegih sit,<br>
+                                houston, yk 5896,uk</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="container pt-60">
+        <div class="row">
+            <div class="col-lg-6 pt-60">
+                <img src="./assets/images/inbox.png" alt="inbox" class="w-100">
+
+            </div>
+            <div class="col-lg-6 pb-60 mt-34 d-none d-lg-block">
+                <h2 class="f-pp">Send Your <span class="f-p1"> Message To Us</span></h2>
+                <div class="w-100 pt-18 d-flex">
+                    <input type="text" placeholder="Name" class="input-text form w-50 mr-10 outline-none">
+                    <input type="text" placeholder="Email" class="input-text form w-50 outline-none">
+                </div>
+                <div class="w-100 pt-18 d-flex">
+                    <input type="text" placeholder="Mobile No" class="input-text form w-50 mr-10 outline-none">
+                    <input type="text" placeholder="Subject" class="input-text form w-50 outline-none">
+                </div>
+                <div class="w-100 pt-18">
+                    <textarea name="text" id="text" cols="30" rows="10" placeholder="Send Message"
+                        class="form3 pl-18 pt-15 resize outline-none"></textarea>
+
+                </div>
+                <button class="btn-orange">Send Massage</button>
+            </div>
+            <div class="col-lg-6 pb-60 mt-34 d-block d-lg-none">
+                <h2 class="f-pp">Send Your <span class="f-p1"> Message To Us</span></h2>
+                <input type="text" placeholder="Name" class="input-text form w-100 mr-10 outline-none mt-22">
+                <input type="text" placeholder="Email" class="input-text form w-100 outline-none pt-18 mt-22">
+                <input type="text" placeholder="Mobile No" class="input-text form w-100 mr-10 outline-none mt-22">
+                <input type="text" placeholder="Subject" class="input-text form w-100 outline-none mt-22">
+                <textarea name="text-2" id="text-2" cols="30" rows="10" placeholder="Send Massage"
+                    class="form3 pl-18 pt-15 resize outline-none mt-22 mb-44"></textarea>
+                <button class="btn-orange">Send Massage</button>
+            </div>
+
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111497.0733142461!2d75.67313689744496!3d29.156315708471862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391232d8011d0c37%3A0x1d3f0df105af1178!2sHisar%2C%20Haryana!5e0!3m2!1sen!2sin!4v1695266092144!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+    </div>
+    <div class="container pt-120 pb-120">
+        <div class=" d-flex justify-content-between gap-35">
+            <div class="">
+                <img src="./assets/images/token-1.png" alt="token-1" class="w-100">
+            </div>
+            <div class="">
+                <img src="./assets/images/token-2.png" alt="token-2" class="w-100">
+            </div>
+            <div class="">
+                <img src="./assets/images/token-3.png" alt="token-3" class="w-100">
+            </div>
+            <div class="">
+                <img src="./assets/images/token-4.png" alt="token-4" class="w-100">
+            </div>
+
+        </div>
+
+    </div>
+    <footer class="bg-grey">
+        <div class="container">
+            <div class="row pt-60 pb-60">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                    <h2 class="logo">Digi<span class="logo-1 text-white">ency</span></h2>
+                    <p class="par-3 Max-width pt-25 mb-0 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                        a laoreet
+                        libero dis eget maecenas
+                        bibendum.</p>
+                    <div class="d-flex gap-35 gap-22 pt-18">
+                        <div class="card-5 d-flex align-items-center justify-content-center">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_3236)">
+                                        <path
+                                            d="M14 14H16.5L17.5 10H14V8C14 6.97 14 6 16 6H17.5V2.64C17.174 2.597 15.943 2.5 14.643 2.5C11.928 2.5 10 4.157 10 7.2V10H7V14H10V22.5H14V14Z"
+                                            fill="#FF5300" />
+                                    </g>
+
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-5 d-flex align-items-center justify-content-center">
+                            <a href="https://www.instagram.com" target="_blank">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 2.5C14.717 2.5 15.056 2.51 16.122 2.56C17.187 2.61 17.912 2.777 18.55 3.025C19.21 3.279 19.766 3.623 20.322 4.178C20.8305 4.6779 21.224 5.28259 21.475 5.95C21.722 6.587 21.89 7.313 21.94 8.378C21.987 9.444 22 9.783 22 12.5C22 15.217 21.99 15.556 21.94 16.622C21.89 17.687 21.722 18.412 21.475 19.05C21.2247 19.7178 20.8311 20.3226 20.322 20.822C19.822 21.3303 19.2173 21.7238 18.55 21.975C17.913 22.222 17.187 22.39 16.122 22.44C15.056 22.487 14.717 22.5 12 22.5C9.283 22.5 8.944 22.49 7.878 22.44C6.813 22.39 6.088 22.222 5.45 21.975C4.78233 21.7245 4.17753 21.3309 3.678 20.822C3.16941 20.3222 2.77593 19.7175 2.525 19.05C2.277 18.413 2.11 17.687 2.06 16.622C2.013 15.556 2 15.217 2 12.5C2 9.783 2.01 9.444 2.06 8.378C2.11 7.312 2.277 6.588 2.525 5.95C2.77524 5.28218 3.1688 4.67732 3.678 4.178C4.17767 3.66923 4.78243 3.27573 5.45 3.025C6.088 2.777 6.812 2.61 7.878 2.56C8.944 2.513 9.283 2.5 12 2.5ZM12 7.5C10.6739 7.5 9.40215 8.02678 8.46447 8.96447C7.52678 9.90215 7 11.1739 7 12.5C7 13.8261 7.52678 15.0979 8.46447 16.0355C9.40215 16.9732 10.6739 17.5 12 17.5C13.3261 17.5 14.5979 16.9732 15.5355 16.0355C16.4732 15.0979 17 13.8261 17 12.5C17 11.1739 16.4732 9.90215 15.5355 8.96447C14.5979 8.02678 13.3261 7.5 12 7.5ZM18.5 7.25C18.5 6.91848 18.3683 6.60054 18.1339 6.36612C17.8995 6.1317 17.5815 6 17.25 6C16.9185 6 16.6005 6.1317 16.3661 6.36612C16.1317 6.60054 16 6.91848 16 7.25C16 7.58152 16.1317 7.89946 16.3661 8.13388C16.6005 8.3683 16.9185 8.5 17.25 8.5C17.5815 8.5 17.8995 8.3683 18.1339 8.13388C18.3683 7.89946 18.5 7.58152 18.5 7.25ZM12 9.5C12.7956 9.5 13.5587 9.81607 14.1213 10.3787C14.6839 10.9413 15 11.7044 15 12.5C15 13.2956 14.6839 14.0587 14.1213 14.6213C13.5587 15.1839 12.7956 15.5 12 15.5C11.2044 15.5 10.4413 15.1839 9.87868 14.6213C9.31607 14.0587 9 13.2956 9 12.5C9 11.7044 9.31607 10.9413 9.87868 10.3787C10.4413 9.81607 11.2044 9.5 12 9.5Z"
+                                        fill="#FF5300" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-5 d-flex align-items-center justify-content-center">
+                            <a href="https://twitter.com/" target="_blank">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_3248)">
+                                        <path
+                                            d="M22.1618 6.15593C21.3984 6.49362 20.5888 6.7154 19.7598 6.81393C20.6336 6.29136 21.2875 5.46894 21.5998 4.49993C20.7798 4.98793 19.8808 5.32993 18.9438 5.51493C18.3144 4.84151 17.4802 4.39489 16.5708 4.24451C15.6614 4.09413 14.7277 4.24842 13.9151 4.68338C13.1024 5.11834 12.4562 5.80961 12.0769 6.64972C11.6976 7.48983 11.6066 8.43171 11.8178 9.32893C10.1549 9.24558 8.52814 8.81345 7.0431 8.06059C5.55805 7.30773 4.24794 6.25097 3.19781 4.95893C2.8261 5.59738 2.63076 6.32315 2.63181 7.06193C2.63181 8.51193 3.36981 9.79293 4.49181 10.5429C3.82782 10.522 3.17844 10.3427 2.59781 10.0199V10.0719C2.59801 11.0376 2.93218 11.9735 3.54366 12.721C4.15513 13.4684 5.00629 13.9814 5.95281 14.1729C5.33642 14.34 4.69012 14.3646 4.06281 14.2449C4.32968 15.0762 4.84982 15.8031 5.5504 16.324C6.25099 16.8449 7.09694 17.1337 7.96981 17.1499C7.10229 17.8313 6.10899 18.3349 5.04669 18.6321C3.98439 18.9293 2.87394 19.0142 1.77881 18.8819C3.69051 20.1114 5.9159 20.764 8.18881 20.7619C15.8818 20.7619 20.0888 14.3889 20.0888 8.86193C20.0888 8.68193 20.0838 8.49993 20.0758 8.32193C20.8947 7.73009 21.6014 6.99695 22.1628 6.15693L22.1618 6.15593Z"
+                                            fill="#FF5300" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-5 d-flex align-items-center justify-content-center">
+                            <a href="https://www.skype.com/" target="_blank">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.3102 20.8999C11.9879 21.1065 10.6355 20.9979 9.36308 20.5829C8.09069 20.168 6.93425 19.4585 5.98791 18.5122C5.04156 17.5658 4.33205 16.4094 3.91713 15.137C3.50221 13.8646 3.39361 12.5122 3.60016 11.1899C3.07889 10.1984 2.88841 9.0662 3.05657 7.95873C3.22472 6.85125 3.74269 5.8266 4.53477 5.03452C5.32684 4.24244 6.3515 3.72448 7.45897 3.55632C8.56644 3.38817 9.69867 3.57865 10.6902 4.09991C12.0125 3.89336 13.3648 4.00197 14.6372 4.41689C15.9096 4.83181 17.0661 5.54132 18.0124 6.48766C18.9588 7.43401 19.6683 8.59044 20.0832 9.86284C20.4981 11.1352 20.6067 12.4876 20.4002 13.8099C20.9214 14.8014 21.1119 15.9336 20.9437 17.0411C20.7756 18.1486 20.2576 19.1732 19.4655 19.9653C18.6735 20.7574 17.6488 21.2754 16.5413 21.4435C15.4339 21.6117 14.3016 21.4212 13.3102 20.8999ZM12.0522 17.6559H12.0122C14.8842 17.6559 16.3152 16.2699 16.3152 14.4129C16.3152 13.2149 15.7642 11.9419 13.5892 11.4549L11.6062 11.0149C10.8512 10.8429 9.98416 10.6149 9.98416 9.89991C9.98416 9.18491 10.6042 8.68691 11.7082 8.68691C13.9382 8.68691 13.7352 10.2149 14.8392 10.2149C15.4152 10.2149 15.9322 9.87291 15.9322 9.28491C15.9322 7.91491 13.7352 6.88491 11.8762 6.88491C9.85516 6.88491 7.70316 7.74391 7.70316 10.0289C7.70316 11.1269 8.09716 12.2989 10.2632 12.8419L12.9522 13.5129C13.7682 13.7149 13.9702 14.1719 13.9702 14.5849C13.9702 15.2719 13.2862 15.9429 12.0522 15.9429C9.63516 15.9429 9.97416 14.0859 8.67816 14.0859C8.09816 14.0859 7.67516 14.4839 7.67516 15.0569C7.67516 16.1709 9.02716 17.6549 12.0522 17.6549V17.6559Z"
+                                        fill="#FF5300" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mt-31">
+                    <ul class="pl-0">
+                        <li class="par-5">Company</li>
+                        <li class="par-2 pt-25">About Us</li>
+                        <li class="par-2 pt-10">Our Work</li>
+                        <li class="par-2 pt-10">Client</li>
+                        <li class="par-2 pt-10">Our Blog</li>
+                        <li class="par-2 pt-10">Contact US</li>
+                    </ul>
+
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mt-31">
+                    <ul class="pl-0">
+                        <li class="par-5 pl-0">Sevices</li>
+                        <li class="par-2 pt-25">Graphic Design</li>
+                        <li class="par-2 pt-10">UI/UX Design</li>
+                        <li class="par-2 pt-10">Web Development</li>
+                        <li class="par-2 pt-10">App Development</li>
+                        <li class="par-2 pt-10">Web Hosting</li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mt-34">
+                    <div class="par-5">Newsletter</div>
+                    <p class="par-3 pt-25 mb-0 Max-width max-width-0">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Lorem eget varius viverra in.</p>
+                    <div class="pt-25">
+                        <div class="form-box d-flex justify-content-between">
+                            <input type="text" placeholder="info@gmail.com"
+                                class="input-text forms pt-18 pb-18 outline-none pl-18">
+                            <div class="box-2 d-flex align-items-center justify-content-center">
+                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_3754)">
+                                        <path
+                                            d="M1.94584 9.81504C1.42384 9.64104 1.41884 9.36004 1.95584 9.18104L21.0428 2.81904C21.5718 2.64304 21.8748 2.93904 21.7268 3.45704L16.2728 22.543C16.1228 23.072 15.8178 23.09 15.5938 22.588L11.9998 14.5L17.9998 6.50004L9.99984 12.5L1.94584 9.81504Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_3754">
+                                            <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bg-orange">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex pt-18 align-items-center pb-18">
+                    <span><svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2_3740)">
+                                <path
+                                    d="M12 2.5C17.52 2.5 22 6.98 22 12.5C22 18.02 17.52 22.5 12 22.5C6.48 22.5 2 18.02 2 12.5C2 6.98 6.48 2.5 12 2.5ZM12 4.5C7.58 4.5 4 8.08 4 12.5C4 16.92 7.58 20.5 12 20.5C16.42 20.5 20 16.92 20 12.5C20 8.08 16.42 4.5 12 4.5ZM12 7.5C13.82 7.5 15.413 8.473 16.288 9.928L14.574 10.957C14.3043 10.5072 13.9213 10.1361 13.4634 9.88045C13.0055 9.62484 12.4885 9.49374 11.9641 9.50023C11.4397 9.50672 10.9262 9.65056 10.4747 9.91742C10.0232 10.1843 9.6496 10.5648 9.39107 11.0211C9.13254 11.4774 8.99815 11.9935 9.00128 12.5179C9.00442 13.0424 9.14498 13.5568 9.40895 14.01C9.67292 14.4632 10.0511 14.8392 10.5057 15.1007C10.9603 15.3621 11.4756 15.4998 12 15.5C12.5181 15.5003 13.0275 15.3664 13.4785 15.1112C13.9294 14.856 14.3065 14.4883 14.573 14.044L16.288 15.072C15.726 16.0106 14.8716 16.739 13.8559 17.1453C12.8402 17.5517 11.7192 17.6137 10.6649 17.3217C9.61058 17.0298 8.68114 16.4 8.01914 15.529C7.35713 14.6581 6.99912 13.594 7 12.5C7 9.74 9.24 7.5 12 7.5Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2_3740">
+                                    <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </span>
+                    <p class="par-2 mb-0 pl-10">Copyright 2021. All Right Reserved By Ojjomedia</p>
+                </div>
+                <div class="pt-2">
+                    <a href="#">
+                        <span><svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_3743)">
+                                    <path
+                                        d="M27.0835 25.5V42.1667H22.9168V25.5H8.3335L25.0002 8.83337L41.6668 25.5H27.0835Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_3743">
+                                        <rect width="50" height="50" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.slider-3').slick({
+            dots: true,
+            infinite: true,
+            prevArrow: false,
+            nextArrow: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1300,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 1000,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+    <script>
+        $('.slider-2').slick({
+            dots: true,
+            infinite: true,
+            prevArrow: false,
+            nextArrow: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1300,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 1000,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
